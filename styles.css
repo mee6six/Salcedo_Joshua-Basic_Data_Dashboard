@@ -1,20 +1,83 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
+/* add header */
 header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    font-weight: 500;
 }
 
-#userStats {
-  margin: 20px;
+/* main section */
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#totalUsers {
-  font-size: 24px;
-  color: blue;
+/* add metrics */
+.metric {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.metric:hover {
+    transform: translateY(-5px);
+}
+
+/* total user and total sales */
+.metric p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 500;
+}
+
+/* add button styles */
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* add hover effect for buttons */
+button:hover {
+    background-color: #1769aa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* footer */
+footer {
+    background-color: #f1f3f4;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #e0e0e0;
 }
