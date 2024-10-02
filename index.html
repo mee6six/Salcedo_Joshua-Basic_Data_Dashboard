@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Data Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Data Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Basic Data Dashboard</h1>
-  </header>
-  <main>
-    <section id="userStats">
-      <h2>Total Users</h2>
-      <p id="totalUsers">1500</p>
-    </section>
-  </main>
+    <header>
+        <h1>Basic Data Dashboard</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Key Metrics</h2>
+            <div>
+                <p>Total Users: <span id="totalUsers">1000</span></p>
+            </div>
+            <div>
+                <p>Total Sales: <span id="totalSales">500</span></p>
+            </div>
+            <button id="alertButton">Show Alert</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Basic Data Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
